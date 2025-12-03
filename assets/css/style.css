@@ -41,6 +41,12 @@ button:hover {
     background: #4aa3ff;
 }
 
+/* Focus state for accessibility */
+button:focus {
+    outline: 3px solid #4aa3ff;
+    outline-offset: 2px;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     button {
