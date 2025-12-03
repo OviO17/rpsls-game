@@ -44,6 +44,17 @@ function updateGame(playerSelection) {
 
     document.getElementById("player-score").textContent = playerScore;
     document.getElementById("computer-score").textContent = computerScore;
+
+
+// Check if someone reached 5 points
+if (playerScore === 5 || computerScore === 5) {
+    const winner = playerScore === 5 ? "You won the game!" : "Computer wins the game!";
+    document.getElementById("result-text").textContent = winner;
+    playerScore = 0;
+    computerScore = 0;
+    document.getElementById("player-score").textContent = playerScore;
+    document.getElementById("computer-score").textContent = computerScore;
+}
 }
 
 // Add button listeners
