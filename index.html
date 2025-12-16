@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RPSLS.io</title>
     <link rel="stylesheet" href="assets/css/style.css">
+     <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<title>RPSLS.io</title>
 </head>
 <body>
     <header>
@@ -21,13 +23,34 @@
 
         <section class="choices">
             <h2>Choose your move:</h2>
-            <div class="buttons">
-                <button data-choice="rock">Rock</button>
-                <button data-choice="paper">Paper</button>
-                <button data-choice="scissors">Scissors</button>
-                <button data-choice="lizard">Lizard</button>
-                <button data-choice="spock">Spock</button>
-            </div>
+           <div class="buttons">
+   <button data-choice="rock" aria-label="Choose Rock">
+    Rock
+    <i class="fa-solid fa-hand-rock"></i>
+</button>
+
+<button data-choice="paper" aria-label="Choose Paper">
+    Paper
+    <i class="fa-solid fa-hand-paper"></i>
+</button>
+
+<button data-choice="scissors" aria-label="Choose Scissors">
+    Scissors
+    <i class="fa-solid fa-hand-scissors"></i>
+</button>
+
+<button data-choice="lizard" aria-label="Choose Lizard">
+    Lizard
+    <i class="fa-solid fa-hand-lizard"></i>
+</button>
+
+<button data-choice="spock" aria-label="Choose Spock">
+    Spock
+    <i class="fa-regular fa-hand-spock"></i>
+</button>
+
+</div>
+
         </section>
 
         <section class="results">
