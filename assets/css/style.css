@@ -116,4 +116,21 @@ button:focus {
     button {
         width: 100%;
     }
+    /* Mobile: Smaller choice layout */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+button {
+    padding: 10px 6px;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+button i {
+    font-size: 1.2rem;
+}
+
 }
