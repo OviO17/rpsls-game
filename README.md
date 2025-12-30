@@ -121,8 +121,7 @@ Reduced button size to avoid scrolling
 Fully usable on small screens
 
 Screenshot – Mobile Layout
-![Mobile View](assets/images/mobile-view.webm)
-
+![Mobile view ](assets/images/mobile-view.png)
  ## Accessibility
 
 High-contrast colour scheme for readability
