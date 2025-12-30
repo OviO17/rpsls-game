@@ -10,7 +10,7 @@ The project was built using HTML, CSS, and vanilla JavaScript, following accessi
 
  Live Site
 
- Live URL:
+ Live URL: https://ovio17.github.io/rpsls-game/
 
 
 
@@ -41,8 +41,6 @@ The project was built using HTML, CSS, and vanilla JavaScript, following accessi
  * [W3c Validator](#W3c-Validator)
 
 * [Deployment](#deployment) 
-
-* [File Structure](#file-structure)
 
 * [Version Control](#version-control)
 
@@ -212,23 +210,6 @@ Save and access the live HTTPS URL
 
 The deployed version matches the development version.
 
- ## File Structure
-
-RPSlS/
-│ index.html
-│ README.md
-│
-├── assets/
-│   ├── css/
-│   │     style.css
-│   ├── js/
-│   │     app.js
-│   ├── images/
-│   └── favicon/
-├── docs/
-│   ├── testing/
-│   │     lighthouse/
-│   │     w3c/
 
 
  ## Version Control
