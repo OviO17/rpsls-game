@@ -37,18 +37,18 @@ The project was built using HTML, CSS, and vanilla JavaScript, following accessi
 * [Testing](#Testing)
  * [Validation](#Validation)
  * [Lighthouse](#Lighthouse)
- *[Known Issues](#known-issues)
- *[W3c Validator](#W3c-Validator)
+ * [Known Issues](#known-issues)
+ * [W3c Validator](#W3c-Validator)
 
 * [Deployment](#deployment) 
 
-*[File Structure](#file-structure)
+* [File Structure](#file-structure)
 
-*[Version Control](#version-control)
+* [Version Control](#version-control)
 
-*[Credits](#credits)
+* [Credits](#credits)
 
-*[Author](#author)
+* [Author](#author)
 
 - - -
 
@@ -91,7 +91,7 @@ First to 3 games won wins the match
 “New Game” button appears only when a match ends
 
  Screenshot – Gameplay Interface
-[Game Start](assets/images/game-start.png)
+![Game Start](assets/images/game-start.png)
 
 ### Score Tracking
 
@@ -104,7 +104,7 @@ Automatic round reset after a round win
 Full reset only occurs when New Game is clicked
 
  Screenshot – Scoreboard with New Game Button
-[Game Won](assets/images/game-won.png)
+![Game Won](assets/images/game-won.png)
 
  ## Responsive Design
 
@@ -121,7 +121,7 @@ Reduced button size to avoid scrolling
 Fully usable on small screens
 
 Screenshot – Mobile Layout
-[Mobile View](assets/images/mobile-view.webm)
+![Mobile View](assets/images/mobile-view.webm)
 
  ## Accessibility
 
@@ -136,8 +136,8 @@ Keyboard focus styles for buttons
 Clear feedback after every action
 
 Screenshot – Accessibility / Focus State
-[Mid-Game ](assets/images/mid-game.png)
-[round won](assets/images/round-won-incremented.png)
+![Mid-Game ](assets/images/mid-game.png)
+![round won](assets/images/round-won-incremented.png)
 
  ## Design & UX Decisions
 
@@ -183,11 +183,11 @@ used to test performance, accessibility, and best practices
  Screenshot – Lighthouse Report
  ### Desktop Lighthouse
 
-[Desktop](docs/testing/lighthouse/desktop%20lighthouse.png) 
+![Desktop](docs/testing/lighthouse/desktop%20lighthouse.png) 
 
  ### Mobile Lighthouse
 
- [Mobile](docs/testing/lighthouse/mobile%20lighthouse.png) 
+ ![Mobile](docs/testing/lighthouse/mobile%20lighthouse.png) 
 
  ### Known Issues
 
@@ -196,8 +196,8 @@ This is resolved automatically once deployed to GitHub Pages using HTTPS.
 
 ### W3C Validator
 
-* [Index Page HTML](docs/testing/w3c/w3cindex.png)
-* [Css Page HTML](docs/testing/w3c/w3ccss.png)
+* ![Index Page HTML](docs/testing/w3c/w3cindex.png)
+* ![Css Page HTML](docs/testing/w3c/w3ccss.png)
 
 ## Deployment
 
